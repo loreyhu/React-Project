@@ -35,6 +35,6 @@ Inside this project code you can find:
 
 To try this website follow the link below!
 
-https://react-project.netlify.app/
+https://react-s2i-project.netlify.app/
 
 Thanks for your attention! 
