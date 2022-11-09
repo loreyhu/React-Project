@@ -29,7 +29,9 @@ Inside this project code you can find:
 
 ![Header Screenshot](./src/img/header-screenshot.png)
 
+
 ![Cards Screenshot](./src/img/card-screenshot.png)
+ 
 
 ![Recipe Screenshot](./src/img/recipe-screenshot.png)
 
