@@ -14,7 +14,7 @@ const Recipe = () => {
     useEffect(() => {
 
         APICall(`https://api.spoonacular.com/recipes/${id}/information?apiKey=898ddcc16621405e8b3cafa261cb7611`)
-
+        // eslint-disable-next-line
     },[id])
 
     return (

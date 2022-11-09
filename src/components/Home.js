@@ -6,7 +6,7 @@ import HomeCSS from "../css/Home.module.css"
 
 import Card from "./Card"
 
-const Search = () => {
+const Home = () => {
 
     const [value, setValue] = useState("") // onChange value of the input 
     const [search, setSearch] = useState("") // the complete value of the input
@@ -18,7 +18,7 @@ const Search = () => {
     useEffect(() => {
 
       APICall(`https://api.spoonacular.com/recipes/complexSearch?apiKey=898ddcc16621405e8b3cafa261cb7611&query=${search}&cuisine=${cuisine}&intolerances=${intolerance}&diet=vegetarian&addRecipeInformation=true`)
-    
+      // eslint-disable-next-line
     }, [search, cuisine, intolerance])
   
     //onSubmit function
@@ -86,4 +86,4 @@ const Search = () => {
     )
 }
 
-export default Search
+export default Home
