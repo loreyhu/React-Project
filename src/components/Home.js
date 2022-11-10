@@ -23,7 +23,7 @@ const Home = () => {
   
     //onSubmit function
 
-    const dataCall = (e) => {
+    const putValue = (e) => {
       e.preventDefault()
       setSearch(value)
       setValue("")
@@ -32,7 +32,7 @@ const Home = () => {
     return (
         
         <>
-            <form className={HomeCSS.form} onSubmit={dataCall}>
+            <form className={HomeCSS.form} onSubmit={putValue}>
             
               <div>
                 <select className={HomeCSS.cuisineSelect} value={cuisine} onChange={(e) => setCuisine(e.target.value)}>

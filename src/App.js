@@ -10,12 +10,17 @@ import Home from "./components/Home"
 import Recipe from "./components/Recipe"
 import Error from "./components/Error"
 
+// function to scroll to top when you open some recipe
+
+import ScrollToTop from "./components/ScrollToTop";
+
 
 
 function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
 
         <Header />
